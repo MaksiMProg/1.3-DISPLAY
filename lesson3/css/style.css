@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+h1 {
+    color: #003395;
+    font-family: Roboto;
+    font-weight: medium;
+    line-height: 63px;
+}
+
+.container {
+    max-width: 1146px;
+    margin: auto;
+}
+
+header {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../images/sky.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header p {
+    margin-top: 27px;
+    color: #000000;
+    font-family: Roboto;
+    font-weight: bold;
+    size: 18px;
+}
+
+nav {
+    background-color: #003395;
+    width: 100%;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+nav a:hover {
+    background-color: darkblue;
+}
+
+.news h2 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    color: #003395;
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+}
+
+.left-column {
+    display: inline-block;
+    width: 754px;
+    text-align: left;
+}
+
+.news p {
+    padding-top: 10px;
+    size: 16.2px;
+}
+
+.right-column {
+    padding: 10px;
+    display: inline-block;
+    width: 362px;
+    vertical-align: top;
+}
+
+.right-column h2 {
+    padding: 10px;
+    color: WHITE;
+    background-color: #24B0FF;
+}
+
+.right-column a {
+    size: 5px;
+    display: block;
+    padding: 10px;
+}
+
+.border {
+    border: 2px solid #33008D;
+    margin: 20px;
+    padding: 10px;
+}
+
+.right-column p {
+    line-height: 22px;
+    font-size: 13px;
+    margin: 10px 0px;
+}
+
+footer {
+    height: 128px;
+    background-color: #003395;
+}
+
+footer p {
+    padding-top: 45px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: right;
+    color: #FCFCFC;
+}
+
+.news {
+    margin-top: 35px;
+}
