@@ -4,13 +4,12 @@
 }
 
 body {
-    font-family: Tahoma;
+    font-family: Roboto;
 }
 
 h1 {
     color: #003395;
-    font-family: Roboto;
-    font-weight: medium;
+    font-weight: 700;
     line-height: 63px;
 }
 
@@ -30,7 +29,6 @@ header {
 header p {
     margin-top: 27px;
     color: #000000;
-    font-family: Roboto;
     font-weight: bold;
     size: 18px;
 }
@@ -41,7 +39,7 @@ nav {
 }
 
 nav a {
-    padding: 20px;
+    padding: 20px 40px 20px 0px;
     display: inline-block;
     text-decoration: none;
     color: #FFFFFF;
@@ -49,14 +47,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: darkblue;
+    text-decoration: underline;
 }
 
 .news h2 {
     padding-top: 7px;
     padding-bottom: 7px;
     margin-top: 20px;
-    font-family: Roboto;
     font-style: normal;
     color: #003395;
     border-top: 2px solid #003395;
@@ -65,7 +62,7 @@ nav a:hover {
 
 .left-column {
     display: inline-block;
-    width: 754px;
+    width: 760px;
     text-align: left;
 }
 
@@ -88,9 +85,10 @@ nav a:hover {
 }
 
 .right-column a {
-    size: 5px;
+    size: 16px;
     display: block;
     padding: 10px;
+    color: #30233D;
 }
 
 .border {
@@ -106,12 +104,13 @@ nav a:hover {
 }
 
 footer {
-    height: 128px;
-    background-color: #003395;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
 }
 
 footer p {
-    padding-top: 45px;
+    margin-right: 27px;
     font-size: 11px;
     font-weight: 400;
     text-align: right;
@@ -120,4 +119,8 @@ footer p {
 
 .news {
     margin-top: 35px;
+}
+
+.left-column a {
+    color: #30233D;
 }
